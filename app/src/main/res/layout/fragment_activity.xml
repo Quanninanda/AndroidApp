@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- Add your child views here -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="36dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/img_11"
+            android:contentDescription="Avatar"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:id="@+id/tv_login_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/iv_avatar"
+            android:gravity="center"
+            android:text="Your Activities"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/img_12"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="Avatar"
+            tools:ignore="ContentDescription,HardcodedText"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:layout_width= "395dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"/>
+
+        <Button
+            android:layout_width= "395dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="160dp"/>
+
+        <Button
+            android:layout_width= "395dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="300dp"/>
+
+        <Button
+            android:layout_width= "395dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="440dp"/>
+
+        <Button
+            android:layout_width= "395dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="440dp"/>
+
+        <Button
+            android:layout_width= "395dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="560dp"
+            android:text="Next"
+            android:backgroundTint="#5040A3"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

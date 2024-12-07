@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:src="@drawable/img_4"
+            android:layout_marginLeft="30dp"
+            />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/img"
+        android:layout_marginLeft="260dp"
+        />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create your account"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginRight="140dp"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="ex:jon.smith"
+        android:background="#D0E9F2"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="140dp"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="ex:jon.smith@email.com"
+        android:background="#D0E9F2"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtEmail"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="130dp"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="******"
+        android:background="#D0E9F2"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="******"
+        android:background="#D0E9F2"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtConfirmPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        >
+        <CheckBox
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I understood the "
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="terms &amp; policy"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#00B140"
+            android:layout_marginStart="4dp"/>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:backgroundTint="#00B140"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or sign in with"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="#D0E9F2"
+            android:src="@drawable/img_2" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="#D0E9F2"
+            android:src="@drawable/img_1" />
+        />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="#D0E9F2"
+            android:src="@drawable/img_3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? "
+            android:textStyle="normal"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN "
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="#00B140"
+            android:layout_marginStart="4dp"
+            android:id="@+id/tvSignin"/>
+
+    </LinearLayout>
+
+</LinearLayout>
